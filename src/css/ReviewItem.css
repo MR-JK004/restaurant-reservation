@@ -1,0 +1,10 @@
+.hover-zoom {
+transition: transform 0.2s ease-in-out;
+position: relative;
+top: 50%;
+right: 70%;
+}
+
+.hover-zoom:hover {
+transform: scale(1.02);
+}

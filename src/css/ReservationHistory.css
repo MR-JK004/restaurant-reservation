@@ -1,0 +1,55 @@
+.reservation-card-container{
+   position: relative;
+   right: 100px;
+   bottom: 40px;
+   max-width: 100%;
+}
+
+.containerr{
+  display: flex !important;
+  flex-direction: column !important;
+  width: 70%;
+}
+
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  flex-wrap: nowrap; 
+  max-width: 100%;
+  justify-content: flex-start;
+}
+
+.modify, .cancel {
+  flex-grow: 0; 
+}
+
+.re-restaurant-address{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 500px;
+  position: relative;
+  top: 10px;
+}
+
+
+.reservation-card {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 15px;
+  position: relative;
+  left: 30%;
+  width: 100%;
+  top:20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition:transform 0.3s ease-in;
+}
+
+.reservation-card:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}

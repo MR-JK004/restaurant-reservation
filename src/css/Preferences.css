@@ -1,0 +1,47 @@
+.preferences-container {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  width: 35% !important;
+}
+
+.preferences-container h1 {
+  font-size: 2rem;
+  color: #343a40;
+}
+
+.preferences-container h4 {
+  font-size: 1.25rem;
+  color: #495057;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.checkbox-group .form-check {
+  margin-right: 1rem;
+}
+
+.mdb-checkbox .form-check-input:checked ~ .form-check-label {
+  color: #007bff;
+}
+
+.mdb-range {
+  margin: 1rem 0;
+}
+
+.mdb-input {
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+}
+
+.mdb-btn {
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  padding: 0.75rem;
+}
