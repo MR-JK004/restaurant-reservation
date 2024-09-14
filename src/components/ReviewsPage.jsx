@@ -22,6 +22,10 @@ const ReviewsPage = () => {
           setRestaurantName(response.data.reviews[0].restaurantDetails.name);
         }
       else {
+        if(response.status === 404){
+          toast.error('No Reviews Found');
+          return
+        }
         throw new Error("Unexpected response format");
       }
     }
