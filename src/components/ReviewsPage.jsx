@@ -26,7 +26,8 @@ const ReviewsPage = () => {
           toast.error('No Reviews Found');
           return
         }
-        throw new Error("Unexpected response format");
+        toast.error('No Reviews Found');
+          return
       }
     }
   } catch (error) {
