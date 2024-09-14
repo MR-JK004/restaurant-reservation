@@ -160,7 +160,7 @@ function AddRestaurant() {
                         label='Price'
                         id='price'
                         type='text'
-                        size="lg "
+                        size="lg"
                         value={formData.price}
                         onChange={handleInputChange}
                     />
